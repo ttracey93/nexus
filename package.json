@@ -9,6 +9,17 @@
   "author": "Dubforce",
   "license": "ISC",
   "dependencies": {
-    "hapi": "^13.3.0"
+    "coffee-script": "^1.10.0",
+    "good": "^6.6.0",
+    "good-console": "^5.3.1",
+    "grunt": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.6",
+    "hapi": "^13.3.0",
+    "inert": "^3.2.0",
+    "joi": "^8.0.5",
+    "js2coffee": "^2.2.0",
+    "sequelize": "^3.21.0",
+    "sqlite3": "^3.1.3"
   }
 }
