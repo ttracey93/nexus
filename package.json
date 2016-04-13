@@ -1,0 +1,14 @@
+{
+  "name": "nexus",
+  "version": "1.0.0",
+  "description": "The Nexus that runs community",
+  "main": "server.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dubforce",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^13.3.0"
+  }
+}
