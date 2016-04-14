@@ -12,6 +12,18 @@ server.register require 'inert', (err) ->
   if err
     throw err
 
+server.register {
+  register: g
+  options: reporters: [ {
+    reporter: require('good-console')
+    events:
+      response: '*'
+      log: '*'
+  } ]
+}, (err) ->
+  if err
+    throw err
+
 server.route require './routes/index.coffee'
 
 server.route
